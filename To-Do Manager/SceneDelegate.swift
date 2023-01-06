@@ -20,6 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let tasks = TasksStorage().loadTasks()
         
+        
         let taskListController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "TaskListController") as! TaskListController
         
         taskListController.setTasks(tasks)
