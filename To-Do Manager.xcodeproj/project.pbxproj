@@ -70,17 +70,10 @@
 		1312A2EF28C0CE40007B5078 /* To-Do Manager */ = {
 			isa = PBXGroup;
 			children = (
-				1312A30B28C0DD0C007B5078 /* View */,
 				1312A30628C0D0F1007B5078 /* Model */,
-				1312A2F028C0CE40007B5078 /* AppDelegate.swift */,
-				1312A2F228C0CE40007B5078 /* SceneDelegate.swift */,
-				1312A2F628C0CE40007B5078 /* Main.storyboard */,
-				1312A30428C0CF56007B5078 /* TaskListController.swift */,
-				1343F84028C21382006C3DC1 /* TaskEditController.swift */,
-				1310633128C2A2C30064971D /* TaskTypeController.swift */,
-				1312A2F928C0CE42007B5078 /* Assets.xcassets */,
-				1312A2FB28C0CE42007B5078 /* LaunchScreen.storyboard */,
-				1312A2FE28C0CE42007B5078 /* Info.plist */,
+				1312A30B28C0DD0C007B5078 /* View */,
+				14D16D652E3E090F004A496D /* Controllers */,
+				14D16D662E3E0983004A496D /* Supporting files */,
 			);
 			path = "To-Do Manager";
 			sourceTree = "<group>";
@@ -98,6 +91,8 @@
 			isa = PBXGroup;
 			children = (
 				1312A30C28C0DD15007B5078 /* Cells */,
+				1312A2FB28C0CE42007B5078 /* LaunchScreen.storyboard */,
+				1312A2F628C0CE40007B5078 /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -110,6 +105,27 @@
 				1310633428C2A90A0064971D /* TaskTypeCell.xib */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		14D16D652E3E090F004A496D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1310633128C2A2C30064971D /* TaskTypeController.swift */,
+				1343F84028C21382006C3DC1 /* TaskEditController.swift */,
+				1312A30428C0CF56007B5078 /* TaskListController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		14D16D662E3E0983004A496D /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				1312A2FE28C0CE42007B5078 /* Info.plist */,
+				1312A2F928C0CE42007B5078 /* Assets.xcassets */,
+				1312A2F228C0CE40007B5078 /* SceneDelegate.swift */,
+				1312A2F028C0CE40007B5078 /* AppDelegate.swift */,
+			);
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,7 +356,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "To-Do Manager/Info.plist";
+				INFOPLIST_FILE = "To-Do Manager/Supporting files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -367,7 +383,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "To-Do Manager/Info.plist";
+				INFOPLIST_FILE = "To-Do Manager/Supporting files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
